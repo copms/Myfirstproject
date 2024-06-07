@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(25, 37, 65);
+}
+
+.card{
+    width: 450px;
+    background: linear-gradient(135deg ,rgb(20, 232, 232),  rgb(115, 67, 153));
+
+}
+
+.search{
+    justify-content: space-around;
+    
+}
+.search input{
+    border: 0;
+    outline: 0;
+    width: 280px;
+    height: 55px;
+    background-color: #ebfffc;
+    color: #555;
+    border-radius: 30px;
+    font-size: 19px;
+    flex: 1;
+    
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#humidity{
+    height: 50px;
+    width: 46px;
+    color: white;
+}
+
+#wind{
+    height: 40px;
+    width: 40px;
+    color: white;
+}
